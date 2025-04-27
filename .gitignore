@@ -1,0 +1,40 @@
+# Ignore Arduino build files
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.o
+
+# Ignore PlatformIO files
+.pio/
+.vscode/
+
+# Ignore ESP-IDF build output
+build/
+sdkconfig.old
+sdkconfig
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# Ignore general system files
+*.log
+*.obj
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore other generated files
+*.ninja
+*.a
+*.so
+*.tar.gz
+*.zip
